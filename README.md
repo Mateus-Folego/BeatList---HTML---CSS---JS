@@ -1,4 +1,4 @@
-<h1 align="center"><strong>BeatList By Mateus Silva Folego <img src="./GitHub/beat_List_icon.png" width=110px alt="logo BeatList">  </strong></h1>
+<h1 align="center"><strong>BeatList By Mateus Silva Folego <img src="./GitHub/beat_List_Icon.png" width=110px alt="logo BeatList">  </strong></h1>
 
 <h2><strong>Status:</strong> Finished ✔️</h2>
 
