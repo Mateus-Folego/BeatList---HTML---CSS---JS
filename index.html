@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 minimum-scale=1">
+    <link rel="icon" href="./assets/beat_List_Icon_To_Page.png" type="image/jpg">
+    <link rel="stylesheet" type="text/css" href="./CSS/style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="shortcut icon" href="data:image/x-icon;," type="image/x-icon">
+    <title>BeatList By Mateus Folego</title>
+</head>
+<body>
+    <header>
+        <div id="welcomeContainer">
+            <img id="logoList" src="./assets/beat_List_Icon.png">
+                <button class="btnList">Listen to the List</button>
+        </div>
+    </header>
+
+    <section class="contentsConteiner">
+        <div class="playList">
+            <img class="imagePlayList" src="./assets/Don_Toliver_Cover.jpeg" alt="NoIdeaCover">
+                <p class="songName">No Idea</p>
+                    <p class="artist">Don Toliver</p>
+                        <div class="conteinerAudio">
+                            <audio id="noIdea">
+                                <source src="./assets/Songs/Don Toliver- No Idea.mp3" type="audio/mp3">
+                            </audio>
+                                <div class="audioDuration">
+                                    <span id="timeMusicIniDon" class="timeMusic">0:00</span>
+                                       <div class="center"><input id="durationSliderDon" class="durationSlider" type="range" min="0" max="" value="" step="0.1"></div>
+                                            <span id="timeMusicEndDon" class="timeMusic">2:36</span>
+                                </div>
+                                <div class="audioDiv"> 
+                                        <button id="previou1" class="material-icons md-36">
+                                            skip_previous
+                                        </button>
+                                            <button id="play1" class="material-icons md-36">
+                                                play_arrow
+                                            </button>
+                                                <button id="pause1" class="material-icons md-36">
+                                                    pause 
+                                                </button>
+                                                    <button id="replayDon" class="material-icons md-36">
+                                                        replay
+                                                    </button>
+                                                        <button id="nextDon" class="material-icons md-36">
+                                                            skip_next
+                                                        </button>        
+                                </div>
+                                <div class="sliderAudio">
+                                    <button id="audioDon" class="material-icons md-36">
+                                        volume_up
+                                    </button>
+                                        <button id="audioDonOff" class="material-icons md-36">
+                                            volume_off
+                                        </button>
+                                            <input id="volumeSliderDon" class="volumeSlider" type="range" min="0.0" max="1.0" value="0.5" step="0.1">
+                                </div>
+                        </div>
+        </div>
+
+        <div class="playList2">
+            <img class="imagePlayList" src="./assets/Lil_Uzi_Cover.jpeg" alt="XoTourLif3Cover">
+                <p class="songName">XO Tour Lif3</p>
+                    <p class="artist">Lil Uzi Vert</p>
+                        <div class="conteinerAudio">
+                            <audio id="XoTour">
+                                <source src="./assets/Songs/Lil Uzi Vert - XO Tour Llif3.mp3" type="audio/mp3">
+                            </audio>
+                                <div class="audioDuration">
+                                    <span id="timeMusicIniLil" class="timeMusic">0:00</span>
+                                       <div class="center"><input id="durationSliderLil" class="durationSlider" type="range" min="0" max="" value="" step="0.1"></div>
+                                            <span id="timeMusicEndLil" class="timeMusic">3:03</span>
+                                </div>
+                                <div class="audioDiv">
+                                    <button id="previou2" class="material-icons md-36">
+                                        skip_previous
+                                    </button>
+                                        <button id="play2" class="material-icons md-36">
+                                            play_arrow
+                                        </button>
+                                            <button id="pause2" class="material-icons md-36">
+                                                pause 
+                                            </button>
+                                                <button id="replayLil" class="material-icons md-36">
+                                                    replay
+                                                </button>
+                                                    <button id="nextLil" class="material-icons md-36">
+                                                        skip_next
+                                                    </button>
+                                </div>
+                        
+                                <div class="sliderAudio">
+                                    <button id="audioLil" class="material-icons md-36">
+                                        volume_up
+                                    </button>
+                                        <button id="audioLilOff" class="material-icons md-36">
+                                            volume_off
+                                        </button>
+                                            <input id="volumeSliderLil" class="volumeSlider" type="range" min="0.0" max="1.0" value="0.5" step="0.1">
+                                </div>
+                        </div>       
+        </div>
+
+        <div class="playList3">
+            <img class="imagePlayList" src="./assets/Offset_Cover.jpeg" alt="RicFlairDripCover">
+                <p class="songName">Ric Flair Drip</p>
+                    <p class="artist">Offset</p>
+                        <div class="conteinerAudio">
+                            <audio id="ricFlairDrip">
+                                <source src="./assets/Songs/Offset - Ric Flair Drip.mp3" type="audio/mp3">
+                            </audio>
+                                <div class="audioDuration">
+                                    <span id="timeMusicIniOffset" class="timeMusic">0:00</span>
+                                       <div class="center"><input id="durationSliderOffset" class="durationSlider" type="range" min="0" max="" value="" step="0.1"></div>
+                                            <span id="timeMusicEndOffset" class="timeMusic">2:34</span>
+                                </div>
+                                <div class="audioDiv">
+                                    <button id="previou3" class="material-icons md-36">
+                                        skip_previous
+                                    </button>
+                                        <button id="play3" class="material-icons md-36">
+                                            play_arrow
+                                        </button>
+                                            <button id="pause3" class="material-icons md-36">
+                                                pause 
+                                            </button>
+                                                <button id="replayOffset" class="material-icons md-36">
+                                                    replay
+                                                </button>
+                                                    <button id="nextOffset" class="material-icons md-36">
+                                                        skip_next
+                                                    </button>
+                                </div>
+                                <div class="sliderAudio">
+                                    <button id="audioOffset" class="material-icons md-36">
+                                        volume_up
+                                    </button>
+                                        <button id="audioOffsetOff" class="material-icons md-36">
+                                            volume_off
+                                        </button>
+                                            <input id="volumeSliderOffset" class="volumeSlider" type="range" min="0.0" max="1.0" value="0.5" step="0.1">
+                                </div>
+                        </div>
+        </div>
+        
+        <div class="playList4">
+            <img class="imagePlayList" src="./assets/Travis_Scott_Cover.jpeg" alt="TheScottsCover">
+                <p class="songName">The Scotts</p>
+                    <p class="artist">Travis Scott and Kid Cubi</p>
+                        <div class="conteinerAudio">
+                            <audio id="theScotts">
+                                <source src="./assets/Songs/Travis Scott - THE SCOTTS.mp3" type="audio/mp3">
+                            </audio>
+                                <div class="audioDuration">
+                                    <span id="timeMusicIniTravis" class="timeMusic">0:00</span>
+                                       <div class="center"><input id="durationSliderTravis" class="durationSlider" type="range" min="0" max="" value="" step="0.1"></div>
+                                            <span id="timeMusicEndTravis" class="timeMusic">2:46</span>
+                                </div>
+                                <div class="audioDiv">
+                                    <button id="previou4" class="material-icons md-36">
+                                        skip_previous
+                                    </button>
+                                        <button id="play4" class="material-icons md-36">
+                                            play_arrow
+                                        </button>
+                                            <button id="pause4" class="material-icons md-36">
+                                                pause 
+                                            </button>
+                                                <button id="replayTravis" class="material-icons md-36">
+                                                    replay
+                                                </button>
+                                                    <button id="nextTravis" class="material-icons md-36">
+                                                        skip_next
+                                                    </button>
+                                </div>
+                                <div class="sliderAudio">
+                                    <button id="audioTravis" class="material-icons md-36">
+                                        volume_up
+                                    </button>
+                                        <button id="audioTravisOff" class="material-icons md-36">
+                                            volume_off
+                                        </button>
+                                            <input id="volumeSliderTravis" class="volumeSlider" type="range" min="0.0" max="1.0" value="0.5" step="0.1">
+                                </div>
+                        </div>
+        </div>                  
+    </section>
+    <script src="./JS/script.js"></script>
+</body>
+</html>
